@@ -1,0 +1,18 @@
+{
+  "features": [
+    "Age",
+    "Sex",
+    "ChestPainType",
+    "RestingBP",
+    "Cholesterol",
+    "FastingBS",
+    "RestingECG",
+    "MaxHR",
+    "ExerciseAngina",
+    "Oldpeak",
+    "ST_Slope"
+  ],
+  "target": "HeartDisease",
+  "model": "Random_Forest",
+  "sklearn_version": "1.6.1"
+}

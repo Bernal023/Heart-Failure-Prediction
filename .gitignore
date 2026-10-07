@@ -1,0 +1,7 @@
+kaggle.json
+.venv/
+__pycache__/
+*.pyc
+models/
+results/
+figures/

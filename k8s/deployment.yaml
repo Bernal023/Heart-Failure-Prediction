@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: heart-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: heart-model
+  template:
+    metadata:
+      labels:
+        app: heart-model
+    spec:
+      containers:
+      - name: model
+        image: heart-api
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8000
