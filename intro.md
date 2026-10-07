@@ -2,7 +2,7 @@
 
 **Materia:** Machine Learning  
 **Autores:** Mateo Bernal y Jassan Arteta  
-**Repositorio:** <https://github.com/Bernal023/Heart-Failure-Prediction/actions>
+**Repositorio:** <https://github.com/TU_USUARIO/TU_REPO>
 
 ## Contexto
 

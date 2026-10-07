@@ -37,7 +37,7 @@ solo que la API lo cargue y responda.
 
 ## Evidencia
 
-Repositorio: <https://github.com/Bernal023/Heart-Failure-Prediction/actions>
+Repositorio: <https://github.com/TU_USUARIO/TU_REPO>
 
 ```{figure} /evidencias/github_actions.png
 :width: 95%
