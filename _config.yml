@@ -1,0 +1,28 @@
+title: Predicción de falla cardíaca con Pipelines y MLOps local
+author: Mateo Bernal y Jassan Arteta
+copyright: "2026"
+
+# Solo se compilan los archivos listados en _toc.yml
+only_build_toc_files: true
+exclude_patterns:
+  - ".venv/**"
+  - "_build/**"
+  - ".git/**"
+  - "README.md"
+  - "notebooks/Heart_Failure_Proyecto_Integrador.ipynb"
+  - "**/.ipynb_checkpoints"
+
+# Las salidas de los notebooks ya están guardadas (ejecutados en Colab)
+execute:
+  execute_notebooks: "off"
+
+html:
+  use_repository_button: false
+  use_issues_button: false
+  use_edit_page_button: false
+
+sphinx:
+  config:
+    language: es
+    # copia el reporte de Evidently a la raíz del sitio compilado
+    html_extra_path: ["drift_report.html"]

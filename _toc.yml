@@ -1,0 +1,10 @@
+format: jb-book
+root: intro
+chapters:
+  - file: notebooks/1_model_leakage_demo
+  - file: notebooks/2_model_pipeline_cv
+  - file: etapa3_fastapi_docker
+  - file: etapa4_kubernetes
+  - file: etapa5_ci_github_actions
+  - file: etapa6_evidently
+  - file: conclusiones
