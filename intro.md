@@ -2,7 +2,7 @@
 
 **Materia:** Machine Learning  
 **Autores:** Mateo Bernal y Jassan Arteta  
-**Repositorio:** <https://github.com/TU_USUARIO/TU_REPO>
+**Repositorio:** <https://github.com/Bernal023/Heart-Failure-Prediction>
 
 ## Contexto
 
@@ -50,9 +50,11 @@ ganador claro, están en el Notebook 2 y en las conclusiones.
 ## Cómo leer este libro
 
 * Los **notebooks 1 y 2** conservan las salidas de la ejecución real en Google Colab.
-* Los capítulos de las **Etapas 3 a 6** muestran los archivos reales del proyecto (se incluyen
-  directamente desde sus carpetas) y las capturas de la ejecución.
-* Las **conclusiones** resumen los resultados, las limitaciones y cómo reproducir todo.
+* Los capítulos de las **Etapas 3 a 6** explican los conceptos, recorren los archivos reales del
+  proyecto (se incluyen directamente desde sus carpetas), documentan los problemas encontrados y
+  muestran las capturas de la ejecución.
+* Las **conclusiones** resumen los resultados, las limitaciones, las mejoras posibles y cómo
+  reproducir todo.
 
 ## Estructura del proyecto
 
@@ -63,7 +65,7 @@ Heart_Failure_Prediction/
 ├── k8s/                      deployment.yaml y service.yaml
 ├── notebooks/                notebooks 1 y 2 (y el notebook completo de Colab)
 ├── tests/                    pruebas de la API
-├── .github/workflows/        ci.yml
+├── .github/workflows/        ci.yml (pruebas) y book.yml (publicación de este libro)
 ├── models/ y results/        un archivo por modelo entrenado (checkpoints)
 ├── figures/                  curvas ROC y matriz de confusión
 ├── evidencias/               capturas usadas en este libro
