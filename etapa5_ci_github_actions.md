@@ -87,12 +87,6 @@ aprobadas.
 | `pip install flake8 pytest` | Se añade `httpx` | `TestClient` de FastAPI lo necesita |
 | `actions/checkout@v3`, `setup-python@v4` | `@v4` y `@v5` | Versiones más recientes de las acciones |
 
-## Problemas encontrados
-
-| Problema | Causa | Solución |
-|---|---|---|
-| `flake8 app/` falló con `E902 FileNotFoundError: 'app/'` | El comando se ejecutó desde `C:\proyectos` y no desde la carpeta del proyecto, donde está `app/` | Entrar a `Heart_Failure_Prediction` (o abrir esa carpeta en VS Code) y repetir el comando |
-
 ## Qué no hace este flujo
 
 * Es de **integración** continua: valida el código, pero no construye la imagen de Docker, no la
