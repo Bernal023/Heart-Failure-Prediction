@@ -112,12 +112,6 @@ Con una sola réplica en un solo nodo no se pone a prueba la alta disponibilidad
 carga; para eso habría que aumentar `replicas` (por ejemplo, con `kubectl scale`), cosa que no se
 hizo en este proyecto.
 
-## Problemas encontrados
-
-| Problema | Causa | Solución |
-|---|---|---|
-| `minikube` no se reconocía como comando en la terminal de VS Code, aunque `winget` indicaba que ya estaba instalado | La terminal se abrió antes de la instalación y no conocía la nueva ruta en el `PATH` | Cerrar y volver a abrir VS Code (o recargar la variable `PATH` en la sesión) |
-
 ## Evidencia
 
 ```{figure} /evidencias/kubectl_get_pods.png
